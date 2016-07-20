@@ -116,12 +116,21 @@ console.log('Question 11');
 var allArrays = array1.concat(array2, array3);
 console.log(allArrays);
 
+console.log('Question 11 - version 2');
+var array4 = [array1, array2, array3];
+console.log(array4);
+
 // 12. Remove "Sparky" and "White" from the above array of arrays.
 
 console.log('Question 12');
 allArrays.splice(3,1);
 allArrays.splice(7,1);
 console.log(allArrays);
+
+console.log('Question 12 - version 2');
+array4[0].pop();
+array4[2].shift();
+console.log(array4);
 
 // ADVANCED TRACK
 // Use the following campingItems array for question 13
